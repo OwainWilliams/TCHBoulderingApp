@@ -97,7 +97,9 @@ monkeyc -f monkey.jungle -o bin/BoulderingApp.prg -d fr955 -y developer_key.der
 
 ---
 
-## Configuration
+## Configuration (Work in progress)
+
+Just now you need to change the code and sideload it, rather than within the app. Hopefully I can fix this at some point. 
 
 Two settings can be configured via the **Garmin Connect app** (phone → watch app settings):
 
