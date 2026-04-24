@@ -1,0 +1,57 @@
+<resources>
+    <!-- App identity — referenced in manifest.xml as @Strings.AppName -->
+    <string id="AppName">TCH Bouldering</string>
+
+    <!-- HomeView — idle state -->
+    <string id="HomeTitle">BOULDERING</string>
+    <string id="HomeNoSession">No session</string>
+    <string id="HomeStartHint">Press SELECT to start</string>
+
+    <!-- HomeView — active state -->
+    <string id="HomeRecording">● RECORDING</string>
+    <string id="HomeProblem">problem</string>
+    <string id="HomeProblems">problems</string>
+    <string id="HomeSent">sent</string>
+    <string id="HomeTried">tried</string>
+    <string id="HomeAddHint">SELECT: add problem</string>
+    <string id="HomeEndHint">DOWN: end &amp; save</string>
+
+    <!-- Save confirmation dialog -->
+    <string id="ConfirmSave">Save &amp; upload?</string>
+
+    <!-- GradePickerView -->
+    <string id="PickerHeader">Select Grade</string>
+    <string id="PickerHint">SELECT to start problem</string>
+
+    <!-- Grade names — same order as GRADES[] in BoulderingApp.mc -->
+    <string id="GradeGrey">Grey</string>
+    <string id="GradeGreen">Green</string>
+    <string id="GradeOrange">Orange</string>
+    <string id="GradeBlue">Blue</string>
+    <string id="GradePurple">Purple</string>
+    <string id="GradePink">Pink</string>
+    <string id="GradeRed">Red</string>
+    <string id="GradeWhite">White</string>
+    <string id="GradeYellow">Yellow</string>
+    <string id="GradeBlack">Black</string>
+
+    <!-- ProblemActiveView -->
+    <string id="ProblemOnProblem">time on problem</string>
+    <string id="ProblemSent">&#x2713; Sent</string>
+    <string id="ProblemTried">&#x00D7; Tried</string>
+    <string id="ProblemSelectHint">SELECT</string>
+    <string id="ProblemDownHint">DOWN</string>
+    <string id="ProblemCancelHint">BACK to cancel</string>
+
+    <!-- Settings (Garmin Connect app) -->
+    <string id="SettingApiEndpointTitle">API Endpoint</string>
+    <string id="SettingApiKeyTitle">API Key</string>
+
+    <!-- SummaryView -->
+    <string id="SummaryTitle">Session Saved!</string>
+    <string id="SummaryUploading">Uploading to cloud...</string>
+    <string id="SummaryTotal">total</string>
+    <string id="SummarySent">sent</string>
+    <string id="SummaryTried">tried</string>
+    <string id="SummaryBackHint">BACK to exit</string>
+</resources>

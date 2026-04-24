@@ -1,0 +1,15 @@
+<resources>
+    <!--
+        This app uses Ui.Confirmation (a built-in SDK dialog) rather than
+        Ui.Menu2, so no menus are defined here.
+
+        The SDK expects the menus folder and a valid XML file to be present.
+
+        If you add a menu in future, define it here:
+
+        <menu2 id="MyMenu" title="@Strings.MyMenuTitle">
+            <item id="myItem1" label="@Strings.Item1"/>
+            <item id="myItem2" label="@Strings.Item2"/>
+        </menu2>
+    -->
+</resources>

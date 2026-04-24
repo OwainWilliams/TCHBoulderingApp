@@ -1,0 +1,11 @@
+<resources>
+    <!--
+        LauncherIcon is referenced in manifest.xml as @Drawables.LauncherIcon.
+        Replace launcher_icon.png with your actual 70x70 px PNG (round devices)
+        or 80x80 px PNG (rectangular devices) placed in this drawables folder.
+
+        The simulator will show a placeholder if the file is missing, so the
+        app will still build and run without the image present.
+    -->
+    <bitmap id="LauncherIcon" filename="launcher_icon.png" />
+</resources>

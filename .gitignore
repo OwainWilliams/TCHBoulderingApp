@@ -1,0 +1,13 @@
+# AI assistant folders/files
+.claude/
+**/.claude/
+*claude*
+*copilot*
+**/*claude*
+**/*copilot*
+
+# Editor settings
+.vscode/
+
+# Build outputs
+bin/

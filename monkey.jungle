@@ -1,0 +1,98 @@
+# ============================================================
+#  monkey.jungle
+#  Connect IQ project build configuration.
+#
+#  Device ID rules:
+#    - Forerunner IDs use the "fr" prefix (fr255, fr965, etc.)
+#    - fenix 6X is "fenix6xpro", not "fenix6x"
+#    - IDs verified from: developer.garmin.com/connect-iq/device-reference/
+#
+#  All targets share the same source and resources.
+#  Add device-specific resource overrides below if needed.
+# ============================================================
+
+project.manifest = manifest.xml
+
+base.sourcePath   = source
+base.resourcePath = resources
+
+# ── fēnix 7 series ────────────────────────────────────────────
+fenix7.sourcePath         = $(base.sourcePath)
+fenix7.resourcePath       = $(base.resourcePath)
+
+fenix7s.sourcePath        = $(base.sourcePath)
+fenix7s.resourcePath      = $(base.resourcePath)
+
+fenix7x.sourcePath        = $(base.sourcePath)
+fenix7x.resourcePath      = $(base.resourcePath)
+
+fenix7pro.sourcePath      = $(base.sourcePath)
+fenix7pro.resourcePath    = $(base.resourcePath)
+
+fenix7spro.sourcePath     = $(base.sourcePath)
+fenix7spro.resourcePath   = $(base.resourcePath)
+
+fenix7xpro.sourcePath     = $(base.sourcePath)
+fenix7xpro.resourcePath   = $(base.resourcePath)
+
+# ── fēnix 6 series ────────────────────────────────────────────
+fenix6.sourcePath         = $(base.sourcePath)
+fenix6.resourcePath       = $(base.resourcePath)
+
+fenix6s.sourcePath        = $(base.sourcePath)
+fenix6s.resourcePath      = $(base.resourcePath)
+
+fenix6pro.sourcePath      = $(base.sourcePath)
+fenix6pro.resourcePath    = $(base.resourcePath)
+
+fenix6spro.sourcePath     = $(base.sourcePath)
+fenix6spro.resourcePath   = $(base.resourcePath)
+
+# Note: fenix6x is NOT valid — the correct ID is fenix6xpro
+fenix6xpro.sourcePath     = $(base.sourcePath)
+fenix6xpro.resourcePath   = $(base.resourcePath)
+
+# ── vívoactive ────────────────────────────────────────────────
+vivoactive4.sourcePath    = $(base.sourcePath)
+vivoactive4.resourcePath  = $(base.resourcePath)
+
+vivoactive4s.sourcePath   = $(base.sourcePath)
+vivoactive4s.resourcePath = $(base.resourcePath)
+
+# ── Venu ──────────────────────────────────────────────────────
+venu2.sourcePath          = $(base.sourcePath)
+venu2.resourcePath        = $(base.resourcePath)
+
+venu2s.sourcePath         = $(base.sourcePath)
+venu2s.resourcePath       = $(base.resourcePath)
+
+# ── Forerunner — prefix is "fr", NOT "forerunner" ─────────────
+fr945.sourcePath          = $(base.sourcePath)
+fr945.resourcePath        = $(base.resourcePath)
+
+fr945lte.sourcePath       = $(base.sourcePath)
+fr945lte.resourcePath     = $(base.resourcePath)
+
+fr255.sourcePath          = $(base.sourcePath)
+fr255.resourcePath        = $(base.resourcePath)
+
+fr255m.sourcePath         = $(base.sourcePath)
+fr255m.resourcePath       = $(base.resourcePath)
+
+fr255s.sourcePath         = $(base.sourcePath)
+fr255s.resourcePath       = $(base.resourcePath)
+
+fr255sm.sourcePath        = $(base.sourcePath)
+fr255sm.resourcePath      = $(base.resourcePath)
+
+fr265.sourcePath          = $(base.sourcePath)
+fr265.resourcePath        = $(base.resourcePath)
+
+fr265s.sourcePath         = $(base.sourcePath)
+fr265s.resourcePath       = $(base.resourcePath)
+
+fr955.sourcePath          = $(base.sourcePath)
+fr955.resourcePath        = $(base.resourcePath)
+
+fr965.sourcePath          = $(base.sourcePath)
+fr965.resourcePath        = $(base.resourcePath)

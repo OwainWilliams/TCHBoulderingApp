@@ -1,0 +1,4 @@
+<resources>
+    <property id="ApiEndpoint" type="string">https://owain.codes/umbraco/api/bouldering/postsession</property>
+    <property id="ApiKey" type="string"></property>
+</resources>

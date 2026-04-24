@@ -1,0 +1,10 @@
+<resources>
+    <settings>
+        <setting propertyKey="@Properties.ApiEndpoint" title="@Strings.SettingApiEndpointTitle">
+            <settingConfig type="alphaNumeric"/>
+        </setting>
+        <setting propertyKey="@Properties.ApiKey" title="@Strings.SettingApiKeyTitle">
+            <settingConfig type="alphaNumeric"/>
+        </setting>
+    </settings>
+</resources>

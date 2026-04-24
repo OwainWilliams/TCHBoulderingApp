@@ -1,0 +1,20 @@
+<resources>
+    <!--
+        All views in this app draw their UI entirely in Monkey-C code
+        using dc.drawText / dc.fillCircle etc. in onUpdate().
+
+        No XML layouts are used, so this file is intentionally empty.
+        The SDK expects the layouts folder and a valid XML file to be
+        present; an empty <resources/> element satisfies that requirement.
+
+        If you add a layout-based view in future, define it here:
+
+        <layout id="MyLayout">
+            <label id="myLabel" x="center" y="50"
+                   font="Gfx.FONT_MEDIUM"
+                   justification="Gfx.TEXT_JUSTIFY_CENTER"
+                   color="Gfx.COLOR_WHITE"
+                   text="@Strings.MyString"/>
+        </layout>
+    -->
+</resources>
