@@ -2,6 +2,8 @@
 
 A Garmin Connect IQ watch app for logging bouldering sessions. Track problems by grade, record completions vs. attempts, time each problem, and sync session data to a cloud API.
 
+For an example of the data that is produced - visit : https://owain.codes/bouldering
+
 ---
 
 ## Features
